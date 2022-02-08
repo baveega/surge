@@ -50,11 +50,11 @@ const Register = () => {
                 <label htmlFor="email"></label>
                 <input type="email" name="email" onChange={onChangeInput} placeholder="Email" id="email" value={formData.email} required />
                 <label htmlFor="username"></label>
-                <input type="text" name="username" onChange={onChangeInput} placeholder="Username" id="username" value={formData.email} required />
+                <input type="text" name="username" onChange={onChangeInput} placeholder="Username" id="username" value={formData.username} required />
                 <label htmlFor="password"></label>
                 <input type="password" name="password" onChange={onChangeInput} placeholder="Password" id="password" value={formData.password} required />
                 <label htmlFor="confirmpassword"></label>
-                <input type="password" name="confirmpassword" onChange={onChangeInput} placeholder="Confirm Password" id="confirmpassword" value={formData.password} required />
+                <input type="password" name="confirmpassword" onChange={onChangeInput} placeholder="Confirm Password" id="confirmpassword" value={formData.confirmpassword} required />
                 {successMsg && <div className="success-msg">{successMsg}</div>}
                 {errMsg && <div className="err-msg">{errMsg}</div>}
                 <button type="submit" disabled={wait}>Register</button>
