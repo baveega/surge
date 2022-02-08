@@ -59,7 +59,7 @@ h2 {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #bbbbbb;
-  border-radius: 3px;
+  border-radius: 7px;
   margin-bottom: 5px;
 }
 
@@ -75,7 +75,7 @@ h2 {
   background: #A9A9A9;
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.175);
-  border-radius: 3px;
+  border-radius: 7px;
   padding: 12px 0;
   cursor: pointer;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
